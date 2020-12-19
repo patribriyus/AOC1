@@ -1,0 +1,1 @@
+.\otra.o: otra.s

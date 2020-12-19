@@ -1,0 +1,100 @@
+Component: ARM Compiler 5.05 update 1 (build 106) Tool: armlink [4d0efa]
+
+==============================================================================
+
+Section Cross References
+
+    mensaje.o(codigo) refers to mensaje.o(datos) for pila
+    p2.o(codigo) refers to p2.o(datos) for ini
+    p2_bueno.o(codigo) refers to p2_bueno.o(datos) for ini
+
+
+==============================================================================
+
+Removing Unused input sections from the image.
+
+    Removing p2.o(datos), (2560 bytes).
+    Removing p2.o(codigo), (92 bytes).
+    Removing p2_bueno.o(datos), (2048 bytes).
+    Removing p2_bueno.o(codigo), (80 bytes).
+
+4 unused section(s) (total 4780 bytes) removed from the image.
+
+==============================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    mensaje.s                                0x00000000   Number         0  mensaje.o ABSOLUTE
+    p2.s                                     0x00000000   Number         0  p2.o ABSOLUTE
+    p2_bueno.s                               0x00000000   Number         0  p2_bueno.o ABSOLUTE
+    codigo                                   0x40000000   Section      152  mensaje.o(codigo)
+    datos                                    0x40000098   Section     2092  mensaje.o(datos)
+    T                                        0x40000098   Data          40  mensaje.o(datos)
+    stotal                                   0x400000c0   Data           4  mensaje.o(datos)
+    pila                                     0x400000c4   Data        2048  mensaje.o(datos)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THM_ISAv1$ARM_ISAv4$S$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$EBA8$STANDARDLIB$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+
+
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x40000000
+
+  Load Region LR_IRAM1 (Base: 0x40000000, Size: 0x000008c4, Max: 0x00004000, ABSOLUTE)
+
+    Execution Region ER_IRAM1 (Base: 0x40000000, Size: 0x000008c4, Max: 0xffffffff, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x40000000   0x00000098   Code   RO            2  * codigo              mensaje.o
+    0x40000098   0x0000082c   Data   RW            1    datos               mensaje.o
+
+
+==============================================================================
+
+Image component sizes
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+
+       152         12          0       2092          0        308   mensaje.o
+
+    ----------------------------------------------------------------------
+       152         12          0       2092          0        308   Object Totals
+         0          0          0          0          0          0   (incl. Generated)
+         0          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+         0          0          0          0          0          0   Library Totals
+         0          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+==============================================================================
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
+
+       152         12          0       2092          0        308   Grand Totals
+       152         12          0       2092          0        308   ELF Image Totals
+       152         12          0       2092          0          0   ROM Totals
+
+==============================================================================
+
+    Total RO  Size (Code + RO Data)                  152 (   0.15kB)
+    Total RW  Size (RW Data + ZI Data)              2092 (   2.04kB)
+    Total ROM Size (Code + RO Data + RW Data)       2244 (   2.19kB)
+
+==============================================================================
+

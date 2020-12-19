@@ -1,0 +1,8 @@
+--cpu ARM7TDMI
+".\objects\mensaje.o"
+".\objects\p2.o"
+".\objects\p2_bueno.o"
+--strict --scatter ".\practica1.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\practica2.map" -o .\Objects\practica2.axf

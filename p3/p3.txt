@@ -1,0 +1,12 @@
+LENGUAJE ALTO NIVEL:
+M = columnas, N = filas.
+
+for (int x=0; x<M; x++) {
+	for (int i=1; i<N; i++) {
+		for (int j=N-1; j>=i; j-- ) {
+			if (T[j-1][x] > T[j][x]) { /* intercambio */
+				temp=T[j][x]; T[j][x]=T[j-1][x]; T[j-1][x]=temp;
+			}
+		}
+	}
+}

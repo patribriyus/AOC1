@@ -1,0 +1,6 @@
+--cpu ARM7TDMI
+".\objects\ejuno.o"
+--strict --scatter "..\p1\practica1.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\practica3.map" -o .\Objects\practica3.axf

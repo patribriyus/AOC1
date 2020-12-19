@@ -1,0 +1,1 @@
+.\buena.o: buena.s

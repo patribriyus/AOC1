@@ -1,0 +1,12 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+                       
+Command Line: --debug --xref --diag_suppress=9931 --apcs=interwork --depend=.\o
+bjects\ejdos.d -o.\objects\ejdos.o -IC:\Keil_v5\ARM\RV31\INC -IC:\Keil_v5\ARM\C
+MSIS\Include -IC:\Keil_v5\ARM\Inc\Philips --predefine="__EVAL SETA 1" --predefi
+ne="__UVISION_VERSION SETA 514" --list=.\listings\ejdos.lst ejdos.s
+332 symbols in table

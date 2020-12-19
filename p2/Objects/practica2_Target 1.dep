@@ -1,0 +1,4 @@
+Dependencies for Project 'practica2', Target 'Target 1': (DO NOT MODIFY !)
+F (.\mensaje.s)(0x5AECF43D)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips--pd "__UVISION_VERSION SETA 514"--list .\listings\mensaje.lst --xref -o .\objects\mensaje.o --depend .\objects\mensaje.d)
+F (.\p2.s)(0x5ACBFFA3)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips--pd "__UVISION_VERSION SETA 514"--list .\listings\p2.lst --xref -o .\objects\p2.o --depend .\objects\p2.d)
+F (.\p2_bueno.s)(0x5ACBFC5D)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips--pd "__UVISION_VERSION SETA 514"--list .\listings\p2_bueno.lst --xref -o .\objects\p2_bueno.o --depend .\objects\p2_bueno.d)

@@ -1,0 +1,6 @@
+--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork 
+-I C:\Keil_v5\ARM\RV31\INC
+-I C:\Keil_v5\ARM\CMSIS\Include
+-I C:\Keil_v5\ARM\Inc\Philips
+--pd "__UVISION_VERSION SETA 514"
+--list .\listings\p2.lst --xref -o .\objects\p2.o --depend .\objects\p2.d "p2.s"
